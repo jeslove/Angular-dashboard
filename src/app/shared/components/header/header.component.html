@@ -1,1 +1,18 @@
-<p>header works!</p>
+<mat-toolbar class="main-header">
+   <mat-toolbar-row>
+      <a mat-icon class="main-menu">
+        <mat-icon>menu</mat-icon>
+      </a>
+       <span>App Logo</span>
+       <div fxflex fxLayout="row" fxLayoutAlign="flex-end">
+           <ul fxLayout="row" fxLayoutGap="20px">
+             <li><a mat-button href="/">Home</a></li>
+             <li><a mat-button href="/posts">About-Us</a></li>
+             <li><a mat-button href="/members">Contact-Us</a></li>
+             <li><a mat-button href="/">Products</a></li>
+             <li><a mat-button href="/">Login</a></li>
+             <li><a mat-button href="/">Registration</a></li>
+           </ul>
+       </div>
+   </mat-toolbar-row>
+</mat-toolbar>
